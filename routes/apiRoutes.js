@@ -6,4 +6,4 @@ export const apiRouter = express.Router()
 
 apiRouter.get('/', queryParamsController)
 
-apiRouter.get('/:field/:term', pathParamsController)
+apiRouter.get('/:field/:term', pathParamsController) 
